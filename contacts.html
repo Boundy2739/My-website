@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css" >
+    <title>Document</title>
+</head>
+<body>
+    <div class="contactcontainer">
+        <header class="header">
+            <img src="images/logo.png" width="70" height="70" alt="company logo">
+            <nav id="navbar">
+
+                <a class="pages" href="index.html">Home</a>
+                <a href="about.html" class="pages">About us</a>
+                <a href="drinks.html">Menu</a>
+                <a href="events.html">Events</a>
+                <a href="contacts.html" class="pages">Contact</a>
+            </nav>
+        </header>
+        <main class="main">
+            <section class="form">
+                <form action="submitpage.html">
+                    <div>
+                        <label for="firstname">Name</label>
+                        <input type="text" name="firstname" id="firstname" required>
+                    </div>
+                    <div>
+                        <label for="lname">Surnname </label>
+                        <input type="text" name="lastname" id="lname" required>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div>
+                        <label for="query">Your message</label>
+                        <input type="text" name="query" id="query" placeholder="What can we help you with?" required>
+                    </div>
+                    <div>
+                        <button type="submit">Submit request</button>
+                    </div>
+
+                </form>
+            </section>
+        </main>
+        <aside class="sidetitle">
+            <h1>Contact us</h1>
+            <p>Here you can send request, either for suggesting improvments, complaints or applying to work with us</p>
+        </aside>
+        <footer class="footer">
+            <p>© 2024 Mug and Mingle. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
